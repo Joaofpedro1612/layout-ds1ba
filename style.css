@@ -46,6 +46,33 @@ main{
 .conteudo{
     width: 50%;
     background-color: red;
+    padding-right: 128px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conteudo h1{
+    font-size: 80px;
+}
+.conteudo p{
+    font-size: 40px;
+}
+.conteudo button{
+    height: 64px;
+    width: 300px;
+    font-size: 35px;
+    background-color: black;
+    color: wheat;
+}
+.social div{
+height: 64px;
+width: 64px;
+border-radius: 50px;
+background-color: aquamarine;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
 }
 
 .destaque{
