@@ -22,15 +22,17 @@ body{
     }
 header{
     height: 200px;
-    background-color: lightblue;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 .logo{
-    height: 80px;
-    width: 64px;
-    background-color: bisque;
+    height: 96px;
+    width: 96px;
+    background-color: #fff;
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/t1/10994232-nike-logotipo-design-de-roupas-pretas-icone-abstrato-futebol-ilustracaoial-com-fundo-branco-gratis-vetor.jpg);
+    background-size: contain;
 }
 .menu ul{
     display: flex;
@@ -40,13 +42,13 @@ header{
 
 main{
     flex-grow: 1;
-    background-color: plum;
     display: flex;
 }
 .conteudo{
     width: 50%;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     padding-right: 128px;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -61,13 +63,13 @@ main{
     width: 300px;
     font-size: 35px;
     background-color: black;
-    color: wheat;
+    color: rgb(255, 255, 255);
 }
 .social div{
 height: 64px;
 width: 64px;
 border-radius: 50px;
-background-color: aquamarine;
+background-color: rgb(142, 142, 142);
 }
 
 .social{
@@ -75,9 +77,22 @@ background-color: aquamarine;
     justify-content: space-between;
 }
 
+.social-icon{
+    height: 96px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 50%;
+    font-size: 48px;
+    color: #000;
+}
+
 .destaque{
     width: 50%;
-    background-color: azure;
+    background-color: rgb(116, 116, 116);
+    background-image: url;
 }
 
 
@@ -86,5 +101,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(252, 252, 252);
 }
+
