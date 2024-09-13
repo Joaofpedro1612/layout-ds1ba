@@ -62,14 +62,14 @@ main{
     height: 64px;
     width: 300px;
     font-size: 35px;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
 }
 .social div{
 height: 64px;
 width: 64px;
 border-radius: 50px;
-background-color: rgb(142, 142, 142);
+background-color: rgb(255, 255, 255);
 }
 
 .social{
@@ -83,16 +83,18 @@ background-color: rgb(142, 142, 142);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgray;
+    background-color: rgb(255, 252, 252);
     border-radius: 50%;
     font-size: 48px;
     color: #000;
 }
 
 .destaque{
-    width: 50%;
+    width: 80%;
+    height: 80%;
     background-color: rgb(116, 116, 116);
-    background-image: url;
+    background-image: url(https://www.copclub.com.br/cdn/shop/files/nike-nocta-glide-white-chrome_22270836_47713844_2048.webp?v=1700159170);
+    background-size: contain;
 }
 
 
@@ -101,6 +103,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(252, 252, 252);
+    background-color: white;
 }
 
